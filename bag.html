@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="fixed-top navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images\myntra-logo.webp" height="50px" alt="Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          id="top"
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul id="bags" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="details.html"
+                >BAG</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">-</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="bag.html"
+                >ADDRESS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">-</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">PAYMENT</a>
+            </li>
+          </ul>
+          <ul id="bags" class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="">100% Secure</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="container" class="container pt-5 mt-5">
+      <div class="row">
+        <div class="col-5">
+          <form action="" method="post" name="google-sheet" autocomplete="on">
+            <div>
+              <h5>Contact Details</h5>
+              <input
+                name="Name"
+                type="text"
+                class="input-group"
+                placeholder="Name"
+                required
+              /><br />
+              <input
+                name="Number"
+                type="number"
+                class="input-group"
+                placeholder="Mobile No"
+                required
+              /><br />
+            </div>
+            <div>
+              <h5>Address</h5>
+              <input
+                name="Pin-Code"
+                type="number"
+                class="input-group"
+                placeholder="Pin Code"
+                required
+              /><br />
+              <input
+                name="Address"
+                type="text"
+                class="input-group"
+                placeholder="Address"
+                required
+              /><br />
+              <input
+                name="Locality"
+                type="text"
+                class="input-group"
+                placeholder="Locality/Town"
+                required
+              /><br />
+              <input
+                name="City"
+                type="text"
+                class="input-group"
+                placeholder="City/District"
+                required
+              /><br />
+              <input
+                name="State"
+                type="text"
+                class="input-group"
+                placeholder="State"
+                required
+              /><br />
+            </div>
+            <div>
+              <h5>Save Address</h5>
+              <div style="display: flex" id="h_w">
+                <div style="border-radius: 20px" class="active">Home</div>
+                <div style="border-radius: 20px">Work</div>
+              </div>
+            </div>
+            <div>
+              <input type="checkbox" id="" placeholder="Permanent" /> Make this
+              my default address
+            </div>
+            <br />
+            <hr />
+            <div>
+              <button type="submit" id="submit" class="btn btn-primary w-100">
+                ADD ADDRESS
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-5">
+          <div>
+            <h5>PRICE DETAILS</h5>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>Total MRP</td>
+                  <td>Rs. 869</td>
+                </tr>
+                <tr>
+                  <td>Discount on MRP</td>
+                  <td>Rs. 100</td>
+                </tr>
+                <tr>
+                  <td>Coupon Discount</td>
+                  <td>Rs. 50</td>
+                </tr>
+                <tr>
+                  <td>Platform fee</td>
+                  <td>Rs. 50</td>
+                </tr>
+                <tr>
+                  <td>Shipping fee</td>
+                  <td>Rs. 50</td>
+                </tr>
+                <tr>
+                  <td><strong>Total Amount</strong></td>
+                  <td><strong>Rs. 769</strong></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div>
+        <h5>Online Shopping</h5>
+        <p>Men</p>
+        <p>Women</p>
+        <p>Kids</p>
+        <p>Home & Living</p>
+        <p>Beauty</p>
+      </div>
+      <div>
+        <h5>Customer Policies</h5>
+        <p>Contact US</p>
+        <p>Help</p>
+        <p>FAQ</p>
+        <p>T&C</p>
+        <p>Returns</p>
+      </div>
+      <div>
+        <h5>Keep in Touch</h5>
+        <p>Instagram</p>
+        <p>Facebook</p>
+        <p>LinkedIn</p>
+        <p>Youtube</p>
+      </div>
+      <div>
+        <p>100% ORIGINAL</p>
+        <p>Returns Within 14 Days</p>
+      </div>
+    </div>
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzMvYl1HtCNUYtSZqZaAOmMoIpPzDX1K4OqN6wDkb6FQ9hUvaEz_1mjWeBlBF5IMUiajA/exec";
+      const form = document.forms["google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => alert("You have successfully submitted."))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
+<script src="main.js"></script>

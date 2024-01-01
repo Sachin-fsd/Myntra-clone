@@ -1,0 +1,514 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  /* Font & Text */
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-size: 28.8px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  letter-spacing: 4.32px;
+  line-height: normal;
+  text-decoration: none solid rgb(62, 65, 82);
+  text-align: start;
+  text-indent: 0px;
+  text-transform: uppercase;
+  white-space: normal;
+  word-spacing: 0px;
+
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  color: rgb(62, 65, 82);
+
+  /* Box */
+  height: 37px;
+  width: 1343px;
+  border: 0px none rgb(62, 65, 82);
+  border-top: 0px none rgb(62, 65, 82);
+  border-right: 0px none rgb(62, 65, 82);
+  border-bottom: 0px none rgb(62, 65, 82);
+  border-left: 0px none rgb(62, 65, 82);
+  margin: 50px 0px 10px 30px;
+  padding: 0px;
+  max-height: 144px;
+  min-height: 0px;
+  max-width: none;
+  min-width: 0px;
+
+  margin-bottom: 5% !important;
+}
+
+html{
+  padding: 10px 10px;
+  overflow-x: hidden;
+}
+
+.pad {
+  padding-top: 9%;
+}
+
+.nav-link {
+  font-weight: 700 !important;
+}
+.flex {
+  display: flex;
+}
+
+#top1{
+  padding-top: 80px;
+}
+#top2, #top3{
+  margin-left: 40px;
+}
+
+.item {
+  display: flex;
+}
+
+.item img {
+  width: 20% !important;
+}
+
+.profile_div {
+  text-align: center;
+}
+
+#carouselExampleIndicators {
+  padding-top: 9%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none !important;
+}
+
+/* #top4 img{
+  margin: 0 1% !important;
+} */
+
+.category {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin-bottom: 5%;
+  margin: 0 2% 5% 2%;
+}
+
+.category a {
+  margin: 0 1%;
+}
+
+#head3 h2, #head2 h2, #top4>div>h2{
+    /* Font & Text */
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 28.8px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: 4.32px;
+    line-height: normal;
+    text-decoration: none solid rgb(62, 65, 82);
+    text-align: start;
+    text-indent: 0px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+  
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(62, 65, 82);
+  
+    /* Box */
+    height: 37px;
+    width: 1343px;
+    border: 0px none rgb(62, 65, 82);
+    border-top: 0px none rgb(62, 65, 82);
+    border-right: 0px none rgb(62, 65, 82);
+    border-bottom: 0px none rgb(62, 65, 82);
+    border-left: 0px none rgb(62, 65, 82);
+    margin: 50px 0px 10px 30px;
+    padding: 0px;
+    max-height: 144px;
+  
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+#footer h5 {
+  /* Font & Text */
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: normal;
+  text-decoration: none solid rgb(40, 44, 63);
+  text-align: start;
+  text-indent: 0px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0px;
+
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  color: rgb(40, 44, 63);
+}
+
+#footer p {
+  /* Font & Text */
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  text-decoration: none solid rgb(105, 107, 121);
+  text-align: start;
+
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  color: rgb(105, 107, 121);
+
+  /* Box */
+  height: 19px;
+  width: 155px;
+  border: 0px none rgb(105, 107, 121);
+  border-top: 0px none rgb(105, 107, 121);
+  border-right: 0px none rgb(105, 107, 121);
+  border-bottom: 0px none rgb(105, 107, 121);
+  border-left: 0px none rgb(105, 107, 121);
+  margin: 0px;
+  padding: 14px 0px 5px;
+}
+
+#content {
+  display: flex;
+  margin-left: 2%;
+}
+
+#options_clothes {
+  /* font-size: large; */
+  width: 45%;
+  border: 1px solid #302f2f27;
+  padding: 1% 0 0 2%;
+}
+
+#clothes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+  /* border: 1px solid #000; */
+  padding: 1% 2% 20% 5%;
+}
+#nav {
+  display: flex;
+  padding-left: 2%;
+  justify-content: space-between;
+}
+
+#nav div {
+  cursor: pointer;
+}
+
+#nav div:nth-child(1) {
+  width: 8%;
+  font-weight: 100;
+  font-size: large;
+  /* padding-left: 1%; */
+  /* border: 1px solid #000; */
+}
+#nav div:nth-child(2) {
+  color: red;
+  width: 8%;
+  font-weight: 100;
+  font-size: large;
+  /* padding-left: 0.5%; */
+  /* border: 1px solid #000; */
+}
+
+#nav div:nth-child(6) {
+  margin-left: 30%;
+  width: fit-content;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+select {
+  border: 1px solid white;
+  cursor: pointer;
+}
+select:hover {
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+input {
+  cursor: pointer;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#data {
+  display: flex;
+  justify-content: space-evenly;
+}
+#images {
+  /* border: 1px solid #000; */
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+#images div {
+  /* border: 1px solid pink; */
+  width: 49%;
+  display: inline;
+}
+
+#images img {
+  transition: all 0.5s ease-in-out;
+
+  width: 100%;
+}
+#info {
+  padding: 0 2%;
+  /* border: 1px solid red; */
+
+  width: 40%;
+}
+
+#images img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+.size {
+  margin-top: 2%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 2%;
+  border: 1px solid rgba(48, 48, 48, 0.87);
+  text-align: center;
+  align-content: center;
+  font-size: large;
+  font-weight: 500;
+}
+
+.size:hover {
+  border: 1px solid fuchsia;
+}
+
+.clicked_size {
+  border: 1px solid fuchsia;
+  color: fuchsia;
+}
+
+#sizes {
+  display: flex;
+  justify-content: space-between;
+}
+
+#info > h3 {
+  /* Font & Text */
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-decoration: none solid rgb(40, 44, 63);
+  text-align: start;
+
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  color: rgb(40, 44, 63);
+
+  /* Box */
+  height: 24px;
+  width: 510.531px;
+  border: 0px none rgb(40, 44, 63);
+  border-top: 0px none rgb(40, 44, 63);
+  border-right: 0px none rgb(40, 44, 63);
+  border-bottom: 0px none rgb(40, 44, 63);
+  border-left: 0px none rgb(40, 44, 63);
+  margin: 0px;
+  padding: 0px 20px 0px 0px;
+}
+
+#info > h3 + p {
+  /* Font & Text */
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+  text-decoration: none solid rgb(83, 86, 101);
+  text-align: start;
+  text-indent: 0px;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: normal;
+  word-spacing: 0px;
+
+  /* Color & Background */
+  background-attachment: scroll;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  color: rgb(83, 86, 101);
+
+  /* Box */
+  height: 45px;
+  width: 510.531px;
+  border: 0px none rgb(83, 86, 101);
+  border-top: 0px none rgb(83, 86, 101);
+  border-right: 0px none rgb(83, 86, 101);
+  border-bottom: 0px none rgb(83, 86, 101);
+  border-left: 0px none rgb(83, 86, 101);
+  margin: 0px;
+  padding: 5px 20px 14px 0px;
+}
+
+#bags {
+  margin-left: 30%;
+}
+
+
+#container{
+  margin-left: 15%;
+}
+
+#h_w div{
+  padding: 2%;
+  margin: 2%;
+  border: 1px solid grey;
+}
+
+#h_w div:nth-child(1){
+  border: 1px solid fuchsia;
+  color: fuchsia;
+}
+form input{
+  padding: 1%;
+  
+  
+}
+
+form{
+  border: 1px solid #4644442a;
+  padding:5% 10%;
+}
+
+#card{
+  height: 100px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  padding: 2%;
+  font-size: small;
+}
+
+#options div h4{
+  margin-top: 8%;
+  font-size: 15px;
+  
+}
+#options{
+  margin: 2%;
+  border: 1px solid white;
+  /* padding: 2%; */
+  background-color: rgba(255, 0, 255, 0.514);
+
+}
+
+#options div{
+  overflow:scroll;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  padding: 2%;
+  border-bottom: 1px solid whitesmoke;
+  /* margin: 1%; */
+}
+
+#options div::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome/Safari/Webkit */
+}
+
+#credit{
+  border-left: 2px solid rgb(116, 2, 116);
+  background-color: whitesmoke;
+}
+
+input[type="date"]{
+  width: 75%;
+}
+
+#gift{
+  margin: 5% 0;
+  display: flex;
+  padding: 1% 2%;
+  justify-content: space-between;
+  border: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+#gift p{
+  padding-top: 2%;
+}
