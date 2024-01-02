@@ -219,10 +219,103 @@ html{
 
 #options_clothes {
   /* font-size: large; */
-  width: 45%;
+  width: 20%;
   border: 1px solid #302f2f27;
   padding: 1% 0 0 2%;
 }
+
+#options_clothes>div{
+    /* Font & Text */
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+  
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(0, 0, 0);
+  
+    /* Box */
+    /* height: 294px; */
+    width: 252px;
+    border-top: 0px none rgb(0, 0, 0);
+    border-right: 1px solid rgb(237, 235, 239);
+    border-bottom: 1px solid rgb(233, 233, 237);
+    border-left: 0px none rgb(0, 0, 0);
+    margin: 0px;
+    padding: 20px 0px 15px 25px;
+
+}
+
+#options_clothes>div>div:nth-child(1){
+    /* Font & Text */
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none solid rgb(40, 44, 63);
+    text-align: start;
+    text-indent: 0px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+  
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(40, 44, 63);
+  
+    /* Box */
+    height: 18px;
+    width: 226px;
+    border: 0px none rgb(40, 44, 63);
+    border-top: 0px none rgb(40, 44, 63);
+    border-right: 0px none rgb(40, 44, 63);
+    border-bottom: 0px none rgb(40, 44, 63);
+    border-left: 0px none rgb(40, 44, 63);
+    margin: 0px 0px 18px;
+    padding: 0px;
+    max-height: none;
+    min-height: 0px;
+    max-width: none;
+    min-width: 0px;
+  
+    /* Positioning */
+    position: static;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    float: none;
+    display: block;
+    clear: both;
+    z-index: auto;
+  
+  
+}
+
+
 
 #clothes {
   display: grid;
@@ -230,7 +323,19 @@ html{
   gap: 2%;
   /* border: 1px solid #000; */
   padding: 1% 2% 20% 5%;
+  text-align: center;
 }
+
+#clothes h5{
+  margin-top: 10px;
+}
+
+#clothes img{
+  height: 259px !important;
+  width: 200px !important;
+  object-fit: contain;
+}
+
 #nav {
   display: flex;
   padding-left: 2%;
@@ -241,20 +346,35 @@ html{
   cursor: pointer;
 }
 
-#nav div:nth-child(1) {
-  width: 8%;
-  font-weight: 100;
-  font-size: large;
-  /* padding-left: 1%; */
-  /* border: 1px solid #000; */
-}
-#nav div:nth-child(2) {
-  color: red;
-  width: 8%;
-  font-weight: 100;
-  font-size: large;
-  /* padding-left: 0.5%; */
-  /* border: 1px solid #000; */
+
+
+#nav div:nth-child(1){
+  
+    /* Font & Text */
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+  
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(0, 0, 0);
+  
+  padding: 0 6%;
 }
 
 #nav div:nth-child(6) {
@@ -270,7 +390,6 @@ select {
 }
 select:hover {
   border: 1px solid grey;
-  border-radius: 10px;
 }
 input {
   cursor: pointer;
@@ -352,6 +471,50 @@ a:active {
 #sizes {
   display: flex;
   justify-content: space-between;
+}
+
+.sort, option{
+    /* Font & Text */
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    text-decoration: none solid rgb(40, 44, 63);
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+  
+    /* Color & Background */
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(40, 44, 63);
+  
+    /* Box */
+    height: 38px;
+    width: 255px;
+    border: 1px solid rgb(212, 213, 217);
+    border-top: 1px solid rgb(212, 213, 217);
+    border-right: 1px solid rgb(212, 213, 217);
+    border-bottom: 1px solid rgb(212, 213, 217);
+    border-left: 1px solid rgb(212, 213, 217);
+    margin: 0px;
+    padding: 9px 14px;
+    
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 10px 0px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  
 }
 
 #info > h3 {
@@ -512,3 +675,4 @@ input[type="date"]{
 #gift p{
   padding-top: 2%;
 }
+

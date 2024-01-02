@@ -38,6 +38,8 @@ address.addEventListener("click", (e) => {
   }
   console.log(obj);
 
+  window.location.href =  "payment.html"
+
 });
 
 //payment
