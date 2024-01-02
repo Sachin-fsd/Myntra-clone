@@ -4,6 +4,27 @@
   box-sizing: border-box;
 }
 
+img{
+  cursor: pointer;
+}
+
+body{
+  padding-right: -10%;
+  /* width: 1vw; */
+  overflow-x: hidden;
+  margin: 0 10%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome/Safari/Webkit */
+}
+
+#navi{
+  width: 100% !important;
+}
+
 h2 {
   /* Font & Text */
   font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -22,7 +43,6 @@ h2 {
   word-spacing: 0px;
 
   /* Color & Background */
-  background-attachment: scroll;
   background-color: rgba(0, 0, 0, 0);
   background-image: none;
   background-position: 0% 0%;
@@ -38,18 +58,9 @@ h2 {
   border-bottom: 0px none rgb(62, 65, 82);
   border-left: 0px none rgb(62, 65, 82);
   margin: 50px 0px 10px 30px;
-  padding: 0px;
   max-height: 144px;
-  min-height: 0px;
-  max-width: none;
-  min-width: 0px;
 
   margin-bottom: 5% !important;
-}
-
-html{
-  padding: 10px 10px;
-  overflow-x: hidden;
 }
 
 .pad {
@@ -65,9 +76,6 @@ html{
 
 #top1{
   padding-top: 80px;
-}
-#top2, #top3{
-  margin-left: 40px;
 }
 
 .item {
@@ -125,7 +133,6 @@ html{
     word-spacing: 0px;
   
     /* Color & Background */
-    background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0);
     background-image: none;
     background-position: 0% 0%;
@@ -171,7 +178,6 @@ html{
   word-spacing: 0px;
 
   /* Color & Background */
-  background-attachment: scroll;
   background-color: rgba(0, 0, 0, 0);
   background-image: none;
   background-position: 0% 0%;
@@ -193,7 +199,6 @@ html{
   text-align: start;
 
   /* Color & Background */
-  background-attachment: scroll;
   background-color: rgba(0, 0, 0, 0);
   background-image: none;
   background-position: 0% 0%;
@@ -242,7 +247,6 @@ html{
     word-spacing: 0px;
   
     /* Color & Background */
-    background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0);
     background-image: none;
     background-position: 0% 0%;
@@ -261,7 +265,7 @@ html{
 
 }
 
-#options_clothes>div>div:nth-child(1){
+#options_clothes>div>div:nth-child(1), .delivery{
     /* Font & Text */
     font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -279,7 +283,6 @@ html{
     word-spacing: 0px;
   
     /* Color & Background */
-    background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0);
     background-image: none;
     background-position: 0% 0%;
@@ -301,21 +304,7 @@ html{
     max-width: none;
     min-width: 0px;
   
-    /* Positioning */
-    position: static;
-    top: auto;
-    bottom: auto;
-    right: auto;
-    left: auto;
-    float: none;
-    display: block;
-    clear: both;
-    z-index: auto;
-  
-  
 }
-
-
 
 #clothes {
   display: grid;
@@ -367,7 +356,6 @@ html{
     word-spacing: 0px;
   
     /* Color & Background */
-    background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0);
     background-image: none;
     background-position: 0% 0%;
@@ -457,6 +445,7 @@ a:active {
   align-content: center;
   font-size: large;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .size:hover {
@@ -472,6 +461,8 @@ a:active {
   display: flex;
   justify-content: space-between;
 }
+
+
 
 .sort, option{
     /* Font & Text */
@@ -491,7 +482,6 @@ a:active {
     word-spacing: 0px;
   
     /* Color & Background */
-    background-attachment: scroll;
     background-color: rgb(255, 255, 255);
     background-image: none;
     background-position: 0% 0%;
@@ -531,7 +521,6 @@ a:active {
   text-align: start;
 
   /* Color & Background */
-  background-attachment: scroll;
   background-color: rgba(0, 0, 0, 0);
   background-image: none;
   background-position: 0% 0%;
@@ -569,7 +558,6 @@ a:active {
   word-spacing: 0px;
 
   /* Color & Background */
-  background-attachment: scroll;
   background-color: rgba(0, 0, 0, 0);
   background-image: none;
   background-position: 0% 0%;
@@ -656,7 +644,7 @@ form{
 }
 
 #credit{
-  border-left: 2px solid rgb(116, 2, 116);
+  border-left: 5px solid rgb(116, 2, 116);
   background-color: whitesmoke;
 }
 

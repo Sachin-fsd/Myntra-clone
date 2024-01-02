@@ -36,9 +36,9 @@ address.addEventListener("click", (e) => {
   for (let x of inputs) {
     obj[x.placeholder] = x.value;
   }
-  console.log(obj);
+  
 
-  window.location.href =  "payment.html"
+  // window.location.href =  "payment.html"
 
 });
 

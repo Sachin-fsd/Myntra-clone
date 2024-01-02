@@ -235,9 +235,15 @@
       const form = document.forms["google-sheet"];
 
       form.addEventListener("submit", (e) => {
+        address.setAttribute("style","cursor:wait;")
+
+        address.setAttribute("disabled", true);
         e.preventDefault();
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => alert("You have successfully submitted."))
+          .then((response) => {
+            alert("We are redirecting you to payments page");
+            window.location.href = "./payment.html";
+          })
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
