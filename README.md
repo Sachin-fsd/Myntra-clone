@@ -7,6 +7,9 @@ This project is a clone of the popular e-commerce platform Myntra, focusing on d
 ![Home Page Screenshot2](https://raw.githubusercontent.com/Sachin-fsd/Myntra-clone/main/images/readme/home2.png)
 ![Product Page Screenshot](https://raw.githubusercontent.com/Sachin-fsd/Myntra-clone/main/images/readme/home3.png)
 
+## Live Demo
+Check out the live demo of the project here: [Myntra Clone Live Demo](https://my-myntra.netlify.app/)
+
 ## Features
 - Home Page with slider 
 - Product Catalogue
